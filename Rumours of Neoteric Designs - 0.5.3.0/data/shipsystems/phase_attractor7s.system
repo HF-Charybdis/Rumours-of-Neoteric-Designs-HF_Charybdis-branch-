@@ -1,0 +1,27 @@
+{
+	"id":"phase_attractor7s",
+	"type":"STAT_MOD",
+	"aiType":"TEMPORAL_SHELL",
+	
+	"statsScript":"data.shipsystems.scripts.Phase_Attractor7s",
+
+	#"runScriptWhilePaused":true, # only for the player's ship
+	"runScriptWhileIdle":true, # unapply() never gets called
+		
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"Phase_attractor7s_start",
+	"loopSound":"Phase_attractor7s_loop",
+	"deactivateSound":"",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"threatRange":1200,
+		"threatAmount":10,
+		"threatAngle":0,
+		"threatArc":360,
+	}
+}
+
+
+
+

@@ -1,0 +1,18 @@
+{
+	"id":"dummy7s",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"length":0,
+	"width":0,
+	"fadeTime":0,
+	"fringeColor":[0,0,0,0],
+	"coreColor":[0,0,0,0],
+	"glowColor":[0,0,0,0],
+	"glowRadius":50,
+	"textureScrollSpeed":0,
+	"pixelsPerTexel":0,
+	"passThroughMissiles":true,
+	"bulletSprite":"",
+}

@@ -1,0 +1,34 @@
+{
+	"id":"illusiaskimmer7s_orb",
+	"type":"DISPLACER",
+	"aiType":"PHASE_DISPLACER",
+	
+	"jitterColor":[160, 216, 176,155],
+	"jitterCopies":10,
+	"jitterRange":0,
+	"jitterRangeRadiusFraction":2,
+	
+	"jitterUnderColor":[160, 216, 176,155],
+	"jitterUnderCopies":10,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":0,
+	"jitterUnderRangeRadiusFraction":1,
+
+	
+	"engineGlowColor":[160, 216, 176,125],
+
+	"range":250,
+	"randomRange":0,
+	
+	"renderCopyDuringTeleport":true,
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"Illusia_spawn",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":250,
+		"averageSpeedIncrease":35,
+	}
+}

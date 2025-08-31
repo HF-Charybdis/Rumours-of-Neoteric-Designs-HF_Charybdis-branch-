@@ -1,0 +1,141 @@
+{
+  "hullName": "Hound (HM)",
+  "hullId": "hound7s",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/hound_hegemony_militarized.png",
+  "style": "LOW_TECH",
+  "coversColor": "200,200,200,255",
+  "height": 73,
+  "width": 86,
+  "center": [43, 33.5],
+  "collisionRadius": 56.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 55,
+  "viewOffset": 0,
+  "builtInMods": [
+    "rugged"
+  ],
+  "builtInWings": [
+    "automated_talon_wing_sevens"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [25, -0]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": 0,
+      "locations": [13, -28]
+    },
+    {
+      "id": "WS0003",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 15,
+      "angle": -0,
+      "locations": [13, 28]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        -11, -0,
+        -14, -4.5,
+        -14, 4.5
+      ]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -30,
+      "locations": [20.5, -15.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 30,
+      "locations": [20.5, 15.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-27, -33],
+      "length": 25.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-27, 33],
+      "length": 25.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26, -27.5],
+      "length": 25.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26, 27.5],
+      "length": 25.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26, -20.5],
+      "length": 25.5,
+      "width": 9,
+      "angle": 180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-26, 20.5],
+      "length": 25.5,
+      "width": 9,
+      "angle": -180,
+      "contrailSize": 9,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    35, 10,
+    21.5, 17.5,
+    21, 34.5,
+    -24, 42,
+    -24, -42,
+    21, -34.5,
+    21.5, -17.5,
+    35, -10
+  ]
+}

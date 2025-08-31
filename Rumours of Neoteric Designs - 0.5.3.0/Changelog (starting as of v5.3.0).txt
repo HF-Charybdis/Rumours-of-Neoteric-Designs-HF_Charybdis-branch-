@@ -1,0 +1,34 @@
+v5.3.0a
+Hegemony Changes
+removed base_bp, lowtech_bp and hegemony tags from knownships.
+reduced hullfrequency of hound, trampler and accoster by 80% to stop them from rendering every other ship incredibly rare.
+
+Independent Changes
+removed base_bp, midline_bp, hightech_bp and persean_league tags from knownships.
+reduced hullfrequency by 80% for all ships except the sandshark which has a roughly 73% reduction instead due to already having low frequency relatively speaking.
+
+Luddic Church Changes
+removed base_bp and lowtech_bp tags from knownships.
+removed base_bp, lowtech_bp, missile_bp and luddic_church tags from knownweapons.
+removed improperly formatted attempt at adding the following weapons to the Luddic Church: breachpod, sabotpod, phasecl (proximity charge launcher), cyclone, hurricane, squall and locust.
+reduced hullfrequency by 80% as usual. (also hullfrequencies beyond 5 get reduced to 1 instead of 1.2 or whatever they would be because i am trying to stop ship spam from occuring)
+
+Persean League Changes
+removed base_bp, midline, hightech_bp and persean_league tags from knownships.
+removed base_bp tag from knownweapons.
+removed properly formatted breachpod, sabotpod, phasecl, cyclone, hurricane, squall and locust from knownweapons.
+reduced tarantulas hullfrequency by 80% and sandsharks by 70%
+
+Sindrian Diktat Changes
+removed base_bp, midline and persean_league tags from knownships.
+removed base_bp tag from knownweapons.
+as with the League also removed breachpod, sabotpod, phasecl, cyclone, hurricane, squall and locust from knownweapons.
+reduced tarantulas hullfrequency by 80% (from 4 to 0.8)
+
+Tritachyon Changes
+removed base_bp, midline_bp, hightech_bp and tritachyon tags from knownships.
+removed the same base_bp tag and set of missile weapons as i did from the last 3 factions.
+only reduced the Elipsion and Quasars frequency slightly since they were already almost correct.
+
+default_ship_role Changes
+reduced the Vespa_Attack from 6 Points to 5 (what i call the numbers for ship probability in the roles file).

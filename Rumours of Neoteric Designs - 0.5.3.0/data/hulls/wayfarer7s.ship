@@ -1,0 +1,146 @@
+{
+  "hullName": "Wayfarer (M)",
+  "hullId": "wayfarer7s",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/wayfarer (M).png",
+  "style": "MIDLINE",
+  "height": 111,
+  "width": 86,
+  "center": [43, 54.5],
+  "collisionRadius": 87,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 79.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "elite_package7s"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [47, -0]
+    },
+    {
+      "id": "LB 1",
+      "size": "LARGE",
+      "type": "LAUNCH_BAY",
+      "mount": "HIDDEN",
+      "arc": 360,
+      "angle": 0,
+      "locations": [
+        22.5, -27,
+        19, -27.5
+      ]
+    },
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": -90,
+      "locations": [6.5, -27.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 100,
+      "angle": 90,
+      "locations": [6.5, 27.5]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": -90,
+      "locations": [-25.5, -27.5]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 140,
+      "angle": 90,
+      "locations": [-25.5, 27.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-51, -27],
+      "length": 34,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [-51, 27],
+      "length": 34,
+      "width": 12,
+      "angle": -180,
+      "contrailSize": 12,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [-52, -7],
+      "length": 39,
+      "width": 15,
+      "angle": 180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [-52, 7],
+      "length": 39,
+      "width": 15,
+      "angle": -180,
+      "contrailSize": 15,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [26, -37.5],
+      "length": 17.32,
+      "width": 7.78,
+      "angle": -135,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [26, 37.5],
+      "length": 17.32,
+      "width": 7.78,
+      "angle": 135,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    }
+  ],
+  "bounds": [
+    54, 16.5,
+    32.5, 36.5,
+    5, 41.5,
+    -9, 27,
+    -19, 36.5,
+    -49, 34.5,
+    -49, -34.5,
+    -19, -36.5,
+    -9, -27,
+    5, -41.5,
+    32.5, -36.5,
+    54, -16.5
+  ]
+}

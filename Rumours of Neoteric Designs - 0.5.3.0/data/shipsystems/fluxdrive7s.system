@@ -1,0 +1,28 @@
+{
+	"id":"fluxdrive7s",
+	"type":"STAT_MOD",
+	"aiType":"DAMPER_FIELD",
+	
+	"statsScript":"data.shipsystems.scripts.Fluxdrive7s",
+	
+	"engineGlowLengthMult":1.5,
+	"engineGlowWidthMult":1.25,
+	"engineGlowGlowMult":1.25,
+	
+	#"weaponGlowColor":[255,165,90,0],
+	#"weaponTypes":[ENERGY, BALLISTIC, MISSILE],
+	
+	#"engineGlowColor":[255,90,255,255],
+
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_burn_drive_activate",
+	"loopSound":"system_burn_drive_loop",
+	"deactivateSound":"system_burn_drive_deactivate",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+	}
+}
+
+
+

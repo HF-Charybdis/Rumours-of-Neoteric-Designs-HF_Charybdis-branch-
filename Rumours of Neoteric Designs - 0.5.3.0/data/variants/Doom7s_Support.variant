@@ -1,0 +1,55 @@
+{
+  "variantId": "Doom7s_Support",
+  "hullId": "Doom7s",
+  "displayName": "Support",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 12,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "phasebeam",
+        "WS 002": "phasebeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "lightneedler",
+        "WS 005": "lightneedler",
+        "WS0001": "lightneedler",
+        "WS0002": "lightneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 007": "ionpulser",
+        "WS 008": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "lightdualmg",
+        "WS 006": "lightdualmg",
+        "WS 009": "mininglaser",
+        "WS 010": "mininglaser",
+        "WS 011": "pdburst",
+        "WS 012": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

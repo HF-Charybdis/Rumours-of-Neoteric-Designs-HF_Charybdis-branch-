@@ -1,0 +1,40 @@
+{
+  "variantId": "Saltare7s_Strike",
+  "hullId": "Saltare7s",
+  "displayName": "Strike",
+  "goalVariant": true,
+  "fluxCapacitors": 8,
+  "fluxVents": 5,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardenedshieldemitter",
+    "hardened_subsystems",
+    "frontemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "railgun"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "breach"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "Ictus_dynamic_beam7s"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

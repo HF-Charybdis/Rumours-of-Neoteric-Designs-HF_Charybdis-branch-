@@ -1,0 +1,27 @@
+{
+
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+			"Quasar7s":0.6, #used to be 0.75
+			"elipsion7s":0.5, #used to be 0.65
+		},
+	},
+	
+	"knownShips":{
+		"hulls":[
+                        "elipsion7s",
+						"Quasar7s",
+
+			],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+			"Quasar7s",
+		],
+	},
+},
+

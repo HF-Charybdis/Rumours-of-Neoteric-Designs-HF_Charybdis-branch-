@@ -1,0 +1,14 @@
+{
+  "variantId": "Ex7s_Mayawati_orb_variant",
+  "hullId": "Mayawati_orb",
+  "displayName": "Orb",
+  "goalVariant": true,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [],
+  "modules": [],
+  "wings": []
+}

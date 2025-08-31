@@ -1,0 +1,62 @@
+{
+  "variantId": "Ex7s_elipsion7s_Dakka",
+  "hullId": "elipsion7s",
+  "displayName": "Elite Suppressor",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 17,
+  "quality": 1,
+  "permaMods": [
+    "hardenedshieldemitter",
+    "hardened_subsystems",
+    "advancedoptics"
+  ],
+  "hullMods": [
+    "defensemode7s",
+    "dummydefense7s",
+    "unstable_injector"
+  ],
+  "sMods": [
+    "hardenedshieldemitter",
+    "hardened_subsystems",
+    "advancedoptics"
+    ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "lightneedler",
+        "WS0004": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "ionbeam",
+        "WS0002": "ionbeam"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "gravitonbeam",
+        "WS0006": "gravitonbeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

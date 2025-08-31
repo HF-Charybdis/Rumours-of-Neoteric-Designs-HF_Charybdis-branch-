@@ -1,0 +1,20 @@
+{
+	"star_green7s":{
+		"name":"Green Star",
+		"tilt":0, # left-right (>0 tilts to the left)
+		"pitch":0, # towards-away from the viewer (>0 pitches towards)
+		"rotation":-4, # degrees/second
+		"planetColor":[255,255,255,255],
+		"atmosphereThickness":0.25, # as fraction of radius.  Set to 0 for no atmosphere
+		"atmosphereThicknessMin":10, #  minimum thickness in pixels
+		"atmosphereColor":[171, 245, 184,255],
+		"texture":"graphics/planets/star_green7s.jpg",
+		"icon":"graphics/warroom/icon_star.png",
+		"iconColor":[117, 250, 153,255],
+		"starCoronaSprite":"graphics/fx/star_halo.png", # optional, defaults to really bright particle
+		"starCoronaColor":[150, 255, 166,60], # optional, defaults to white
+		"starCoronaSizeMult":5.12, # required, multiplier for star's radius
+		"isStar":true,
+		"lightPosition":[0,0,10], # in planet radii.  Not used for stars.  z > 0 is above the playing field.
+	}
+}

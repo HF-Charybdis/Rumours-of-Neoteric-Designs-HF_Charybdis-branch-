@@ -1,0 +1,37 @@
+{
+    "displayName": "Pilgrim",
+    "fluxCapacitors": 20,
+    "fluxVents": 20,
+    "goalVariant": true,
+    "hullId": "Accoster7s",
+    "hullMods": [
+        "fluxcoil"
+    ],
+    "quality": 0.0,
+    "variantId": "Accoster7s_Pilgrim",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 001": "arbalest",
+                "WS 000": "arbalest"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 002": "breachpod"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {
+                "WS 005": "lightmg",
+                "WS 004": "lightmg"
+            }
+        }
+    ]
+}

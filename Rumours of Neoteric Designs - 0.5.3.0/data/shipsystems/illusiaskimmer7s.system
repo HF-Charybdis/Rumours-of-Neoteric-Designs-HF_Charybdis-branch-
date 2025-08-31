@@ -1,0 +1,38 @@
+{
+	"id":"illusiaskimmer7s",
+	"type":"DISPLACER",
+	"aiType":"CUSTOM",
+	"aiScript":"data.shipsystems.scripts.Illusiaskimmer7s_AI",
+	
+	"statsScript":"data.shipsystems.scripts.Illusiaskimmer7s",
+	
+	"jitterColor":[160, 216, 176,155],
+	"jitterCopies":10,
+	"jitterRange":0,
+	"jitterRangeRadiusFraction":2,
+	
+	"jitterUnderColor":[160, 216, 176,155],
+	"jitterUnderCopies":10,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":0,
+	"jitterUnderRangeRadiusFraction":1,
+
+    #"canUseWhileRightClickSystemOn":true,
+	
+	"engineGlowColor":[160, 216, 176,125],
+
+	"range":150,
+	"randomRange":0,
+	
+	"renderCopyDuringTeleport":true,
+	
+	"fadeActivationSoundOnChargedown":false,
+	"useSound":"Illusia_active",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":150,
+		"averageSpeedIncrease":35,
+	}
+}

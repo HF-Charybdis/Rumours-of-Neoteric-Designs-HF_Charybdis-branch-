@@ -1,0 +1,34 @@
+{
+	"id":"Mortar_layer7s_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC",
+	"collisionClass":"PROJECTILE_FF",
+	"collisionClassByFighter":"PROJECTILE_FIGHTER",
+	"length":16.0,
+	"hitGlowRadius":10,
+	"width":6.0,
+	"fadeTime":0.6,
+	#"fringeColor":[255,125,125,255],
+	#"coreColor":[255, 252, 199,150],
+	"fringeColor":[255,50,50,255],
+	"coreColor":[255,255,200,150],
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0,
+	"behaviorSpec":{"behavior":"PROXIMITY_FUSE",
+					"range":50,
+					#"vsMissileRange":100,
+					"explosionSpec":{"duration":0.4f,
+									 "radius":80,
+									 "coreRadius":50, # full damage within core radius - also equal to proximity fuse range
+									 "collisionClass":PROJECTILE_FF,
+									 "collisionClassByFighter":PROJECTILE_FIGHTER,
+									 "particleSizeMin":7.0,
+									 "particleSizeRange":1.0,
+									 "particleDuration":1.2,
+									 "particleCount":60,
+									 "particleColor":[255,155,155,85],
+									 "sound":"devastator_explosion"},
+					}
+					
+}
+}

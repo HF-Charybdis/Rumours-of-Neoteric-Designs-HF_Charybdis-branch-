@@ -1,0 +1,122 @@
+{
+  "hullName": "Mayawati",
+  "hullId": "Mayawati7s",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Mayawati7s.png",
+  "style": "MAYA",
+  "height": 96,
+  "width": 106,
+  "center": [53, 48],
+  "collisionRadius": 79,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 74.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "resonance7s",
+    "delicate",
+    "aswitcher_maya",
+    "dummyanchor7s"
+  ],
+  "builtInWeapons": {
+    "WS0003": "Ex7s_soulcrier"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [27.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [5.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-18.5, -3.5],
+      "length": 21.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "HIGH_CENTURY"
+    },
+    {
+      "location": [-18.5, 3.5],
+      "length": 21.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "HIGH_CENTURY"
+    },
+    {
+      "location": [-17.5, -11.5],
+      "length": 21.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "HIGH_CENTURY"
+    },
+    {
+      "location": [-17.5, 11.5],
+      "length": 21.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "HIGH_CENTURY"
+    },
+    {
+      "location": [-14, -17.5],
+      "length": 21.5,
+      "width": 8,
+      "angle": 180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "HIGH_CENTURY"
+    },
+    {
+      "location": [-14, 17.5],
+      "length": 21.5,
+      "width": 8,
+      "angle": -180,
+      "contrailSize": 8,
+      "style": "CUSTOM",
+      "styleId": "HIGH_CENTURY"
+    }
+  ],
+  "bounds": [
+    46, 7.5,
+    28, 11,
+    28.5, 27,
+    8.5, 33.5,
+    -44.5, 51,
+    -14, 17.5,
+    -14, -17.5,
+    -44.5, -51,
+    8.5, -33.5,
+    28.5, -27,
+    28, -11,
+    46, -7.5
+  ]
+}

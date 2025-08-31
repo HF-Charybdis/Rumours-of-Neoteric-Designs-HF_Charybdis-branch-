@@ -1,0 +1,26 @@
+	{
+	"id":"Ex7s_deathblow",
+	"specClass":"projectile",
+	"type":"DECORATIVE",
+	"size":"LARGE",
+	"Sprite": "",
+	"turretSprite": "",
+	"hardpointSprite": "",
+	"turretOffsets":[0, 0],
+	"turretAngleOffsets":[0],
+	"hardpointOffsets":[0, 0],
+	"hardpointAngleOffsets":[0],
+	"everyFrameEffect":"data.weapons.graphicswpns.TempestasDeath7s",
+		"barrelMode":"ALTERNATING", # or LINKED.  whether barrels fire at the same time or alternate.
+	"animationType":"GLOW_AND_FLASH",
+	"muzzleFlashSpec":{"length":0.0,   # only used if animationType = MUZZLE_FLASH
+					   "spread":0.0,
+					   "particleSizeMin":0.0,
+					   "particleSizeRange":0.0,
+					   "particleDuration":0.0,
+					   "particleCount":0,
+					   "particleColor":[0,0,0,0]},
+	"interruptibleBurst":false,
+	"autocharge":false,  # whether the weapon will continue charging and fire if the LMB is tapped instead of held
+	"projectileSpecId":"dummy7s",
+}

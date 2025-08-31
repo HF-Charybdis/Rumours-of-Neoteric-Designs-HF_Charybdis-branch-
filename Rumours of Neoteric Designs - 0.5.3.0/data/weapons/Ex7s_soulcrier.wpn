@@ -1,0 +1,49 @@
+{
+  "id": "Ex7s_soulcrier",
+  "specClass": "projectile",
+  "projectileSpecId": "Ex7s_soulcrier_shot",
+  "everyFrameEffect":"data.weapons.onhit.SoulcrierEffect7s",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretSprite": "graphics/weapons/Ex7s_soulcrier_turret_base.png",
+  "turretGlowSprite": "graphics/weapons/Ex7s_soulcrier_turretglow_base.png",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "graphics/weapons/Ex7s_soulcrier_turretglow_base.png",
+  "glowColor": [
+    99,
+    255,
+    169,
+    250
+  ],
+  "turretOffsets": [
+    12,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    19.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "autocharge": true,
+  "muzzleFlashSpec":{"length":30.0,
+					   "spread":20.0,
+					   "particleSizeMin":7.0,
+					   "particleSizeRange":12.0,
+					   "particleDuration":0.5,
+					   "particleCount":60,
+					   "particleColor": [
+      150,
+      255,
+      208,
+      255
+    ]
+  },
+  "fireSoundTwo": "Soulcrier_fire7s"
+}

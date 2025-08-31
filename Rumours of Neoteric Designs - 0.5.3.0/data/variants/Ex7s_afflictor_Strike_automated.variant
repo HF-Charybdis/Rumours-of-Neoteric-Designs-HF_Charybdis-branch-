@@ -1,0 +1,38 @@
+{
+    "displayName": "Strike",
+    "fluxCapacitors": 6,
+    "fluxVents": 6,
+    "goalVariant": false,
+    "hullId": "afflictor",
+    "hullMods": [
+        "hardened_subsystems",
+        "fluxcoil",
+		"missleracks"
+    ],
+    "permaMods": [automated],
+    "sMods": [],
+    "variantId": "Ex7s_afflictor_Strike_automated",
+    "weaponGroups": [
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 002": "amblaster",
+                "WS 003": "amblaster"
+            }
+        },
+        {
+            "autofire": false,
+            "mode": "ALTERNATING",
+            "weapons": {
+                "WS 001": "reaper",
+                "WS 004": "reaper"
+            }
+        },
+        {
+            "autofire": true,
+            "mode": "LINKED",
+            "weapons": {"WS 006": "pdlaser"}
+        }
+    ]
+}

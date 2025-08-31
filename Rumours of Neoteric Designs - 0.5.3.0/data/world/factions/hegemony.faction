@@ -1,0 +1,30 @@
+{
+
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		        "hound7s":1, #used to be 6
+				"trampler7s":0.8, #used to be 4
+				"Accoster7s":0.5, #used to be 2.5
+		},
+	},
+	
+	"knownShips":{
+		"hulls":[
+		        "hound7s",
+				"trampler7s",
+
+			],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+                       
+		],
+	},
+
+
+},
+

@@ -1,0 +1,36 @@
+{
+  "variantId": "Ex7s_Mayawati7s_Deceptive",
+  "hullId": "Mayawati7s",
+  "displayName": "Deceptive",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 3,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardened_subsystems",
+    "reinforcedhull",
+    "heavyarmor",
+	"frame7s",
+	"Cheat_Maya7s",
+    "dummyframe7s"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "Ex7s_soulcrier"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0004": "Ex7s_Mayawati_Bay_variant"
+    },
+    {
+      "WS0005": "Ex7s_Mayawati_Bay_2_variant"
+    }
+  ],
+  "wings": []
+}

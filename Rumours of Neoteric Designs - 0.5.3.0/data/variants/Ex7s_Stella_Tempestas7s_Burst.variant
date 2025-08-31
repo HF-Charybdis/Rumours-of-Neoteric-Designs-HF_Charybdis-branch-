@@ -1,0 +1,74 @@
+{
+  "variantId": "Ex7s_Stella_Tempestas7s_Burst",
+  "hullId": "Stella_Tempestas7s",
+  "displayName": "Burst",
+  "goalVariant": true,
+  "fluxCapacitors": 41,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "fluxbreakers",
+    "fluxdistributor"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "ionpulser",
+        "WS0008": "ionpulser"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "irautolance",
+        "WS0004": "irautolance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "lightneedler",
+        "WS0012": "lightneedler"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "shredder",
+        "WS0010": "shredder"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "guardian",
+        "WS0005": "gravitonbeam",
+        "WS0006": "gravitonbeam"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

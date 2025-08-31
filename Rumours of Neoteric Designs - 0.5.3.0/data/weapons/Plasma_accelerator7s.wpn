@@ -1,0 +1,56 @@
+{
+  "id": "Plasma_accelerator7s",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "LARGE",
+  "beamEffect": "data.weapons.onhit.PlasmaAcceleratorEffect7s",
+  "everyFrameEffect":"data.weapons.onhit.PlasmaAcceleratorSound7s",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/Plasma_accelerator7s_turret.png",
+  "turretGlowSprite": "graphics/weapons/Plasma_accelerator7s_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/Plasma_accelerator7s_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/Plasma_accelerator7s_hardpoint_glow.png",
+  "glowColor": [
+    112, 255, 214,
+    240
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    15.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    31,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    25, 215, 171,
+    255
+  ],
+  "coreColor": [
+    190, 255, 220,
+    255
+  ],
+  "width": 25,
+  "textureType": [
+    "graphics/fx/engineflame32b.png",
+    "graphics/fx/engineglow32b.png",
+  ],
+  "textureScrollSpeed": 700,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  #"fireSoundTwo": ""
+}

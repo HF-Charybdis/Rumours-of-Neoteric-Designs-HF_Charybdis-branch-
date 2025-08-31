@@ -1,0 +1,58 @@
+{
+  "id": "Ictus_dynamic_beam7s",
+  "specClass": "beam",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "beamEffect": "data.weapons.onhit.Ictus_Dynamic_Beam_Effect7s",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/Ictus7s_built_in.png",
+  "turretGlowSprite": "graphics/weapons/Ictus7s_built_in_glow.png",
+  "hardpointSprite": "",
+  "hardpointGlowSprite": "graphics/weapons/Ictus7s_built_in_glow.png",
+  "glowColor": [
+    125,
+    255,
+    181,
+    150
+  ],
+  "hitGlowRadius": 40,
+  "turretOffsets": [
+    16.5,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    25.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    25,
+    176,
+    85,
+    255
+  ],
+  "coreColor": [
+    201,
+    255,
+    221,
+    200
+  ],
+  "width": 11,
+  "textureType": LASER,
+  "textureScrollSpeed": 260,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF
+  ],
+  "fireSoundTwo": "rift_lance_loop"
+}

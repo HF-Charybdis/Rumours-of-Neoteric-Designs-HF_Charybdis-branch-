@@ -1,0 +1,26 @@
+{
+
+	"hullFrequency":{
+		"tags":{
+		},
+		"hulls":{
+		        "hound7s":1, #used to be 6
+				"trampler7s":0.8, #used to be 4
+		},
+	},
+	
+	"knownShips":{ #as with the others this used to add base_bp and lowtech_bp for no reason (i know it is more realistic for all factions to have base_bp but if you want to do that make it a separate mod. Don't hide it in the files of a ships and weapons mod.) 
+		"hulls":[
+		        "hound7s",
+				"trampler7s",
+
+			],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+
+		],
+	},
+},

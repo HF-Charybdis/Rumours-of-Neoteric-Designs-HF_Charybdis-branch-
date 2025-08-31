@@ -1,0 +1,40 @@
+{
+  "id": "Electric_dispenser7s",
+  "specClass": "projectile",
+  "projectileSpecId": "Electric_dispenser7s_shot",
+  "type": "ENERGY",
+  "mountTypeOverride": "HYBRID",
+  "size": "SMALL",
+  "turretSprite": "graphics/weapons/Electric_dispenser7s_turret.png",
+  "turretGlowSprite": "graphics/weapons/Electric_dispenser7s_turret_glow.png",
+  "hardpointSprite": "graphics/weapons/Electric_dispenser7s_hardpoint.png",
+  "hardpointGlowSprite": "graphics/weapons/Electric_dispenser7s_hardpoint_glow.png",
+  "turretOffsets": [
+    15.5,
+    1,
+    15.5,
+    -1
+  ],
+  "turretAngleOffsets": [
+    0,
+    0
+  ],
+  "hardpointOffsets": [
+    20.5,
+    0.5,
+    20.5,
+    -2
+  ],
+  "hardpointAngleOffsets": [
+    0,
+    0
+  ],
+  "glowColor": [
+    255, 222, 216,
+    240
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "NONE",
+  "autocharge": true,
+  "fireSoundTwo": "Electric_dispenser7s_fire"
+}

@@ -1,0 +1,78 @@
+{
+  "variantId": "Quasar7s_Attack",
+  "hullId": "Quasar7s",
+  "displayName": "Attack",
+  "goalVariant": true,
+  "fluxCapacitors": 7,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "magazines",
+    "advancedshieldemitter",
+    "stabilizedshieldemitter",
+    "fluxdistributor",
+    "fluxbreakers",
+    "hardenedshieldemitter",
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0012": "autopulse",
+        "WS0013": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0007": "Plasma_accelerator7s",
+        "WS0008": "Plasma_accelerator7s"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0005": "heavyac",
+        "WS0006": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "heatseeker",
+        "WS0004": "heatseeker"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "irautolance",
+        "WS0002": "irautolance"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0010": "ionpulser",
+        "WS0011": "ionpulser"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "guardian"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

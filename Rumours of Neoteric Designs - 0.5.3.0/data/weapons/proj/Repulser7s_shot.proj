@@ -1,0 +1,19 @@
+{
+	"id":"Repulser7s_shot",
+	"specClass":"projectile",
+	"spawnType":"BALLISTIC_AS_BEAM",
+	"collisionClass":"RAY",
+	"collisionClassByFighter":"RAY_FIGHTER",
+	"onFireEffect":"data.weapons.onhit.RavonMuzzleFlash",
+	"length":70.0,
+	"width":12,
+	"fadeTime":0.6,
+	"fringeColor":[99, 255, 198,255],
+	"coreColor":[255,255,255,255],
+	"glowColor":[99, 255, 198,75],
+	"glowRadius":35,
+	"hitGlowRadius":40,	
+	"textureScrollSpeed":25.0,
+	"pixelsPerTexel":20.0,
+	"bulletSprite":"graphics/weapons/onslaught_thermal_glow.png"	
+}

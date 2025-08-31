@@ -1,0 +1,19 @@
+{
+    "id":"Ex7s_soulcrier_shot_fake",
+    "specClass":"projectile",
+    "onFireEffect":"data.weapons.onhit.SoulcrierOnFire7s",
+    "spawnType":"BALLISTIC_AS_BEAM",
+    "collisionClass":"RAY",
+    "collisionClassByFighter":"RAY_FIGHTER",
+    "passThroughMissiles":true,
+	"length":170.0,
+	"width":30,
+	"fadeTime":0.2,
+	"fringeColor":[99, 255, 169,150],
+    "coreColor":[199, 255, 216,200],
+    "glowColor":[150, 255, 208,50],
+	"glowRadius":7,
+	"hitGlowRadius":15,	
+	"textureScrollSpeed":64.0,
+	"pixelsPerTexel":5.0
+}

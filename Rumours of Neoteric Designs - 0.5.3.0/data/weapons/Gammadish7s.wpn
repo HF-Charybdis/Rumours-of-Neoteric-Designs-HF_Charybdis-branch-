@@ -1,0 +1,57 @@
+{
+  "id": "Gammadish7s",
+  "specClass": "beam",
+  "type": "DECORATIVE",
+  "size": "SMALL",
+  "collisionClass": "RAY",
+  "collisionClassByFighter": "RAY_FIGHTER",
+  "turretSprite": "graphics/weapons/decorative/gamma7s.png",
+  "hardpointSprite": "graphics/weapons/decorative/gamma7s.png",
+  "showDamageWhenDecorative": true,
+  "glowColor": [
+    100,
+    255,
+    149,
+    255
+  ],
+  "hitGlowRadius": 0,
+  "turretOffsets": [
+    8,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    12.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "fringeColor": [
+    0,
+    155,
+    59,
+    255
+  ],
+  "coreColor": [
+    255,
+    255,
+    255,
+    255
+  ],
+  "width": 17,
+  "textureType": SMOOTH,
+  "textureScrollSpeed": 128,
+  "pixelsPerTexel": 5,
+  "pierceSet": [
+    PROJECTILE_FF,
+    PROJECTILE_NO_FF,
+    PROJECTILE_FIGHTER,
+    MISSILE_FF,
+    MISSILE_NO_FF,
+    ASTEROID
+  ],
+  "fireSoundOne": "targeting_gamma_array7s"
+}

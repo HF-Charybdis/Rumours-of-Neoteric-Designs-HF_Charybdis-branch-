@@ -1,0 +1,16 @@
+id,trigger,conditions,script,text,options,notes
+"# Lets say, I hijacked the factions",thing,for customized dialogues lol,,,,
+greetingtritachhostile_sevens,OpenCommLink,"!$player.transponderOn
+$faction.id == tritachyon_hostile
+$entity.isHostile",,"""This is a restricted area, show your credentials, or consider yourself dead""","0:turnOnTransponder: Turn your transponder on
+1:tOff_refuse: Show your middle finger",
+greetingpassive_aggressive_tempestas,OpenCommLink,"$faction.id == passive_aggressive_tempestas
+$entity.isHostile
+!$player.transponderOn",,"Opening your communication link, you find an avatar vibrating in the form of a mask, emitting a buzzing sound that almost fries your sound devices, and then the opposite ship responds:
+
+""Simple folk are by their nature loquacious, and the denizens of the Persean Sector were no exception. It was not long before rumors of AI secretive projects began to fill theories about a violation of the Treaty. My ambitions ended up in my exile among the fascinating artificial beings that crudely saluted me with their technology. All of them, brought their sacrifice to me, in favor to a new ascension, and you will testify it, together with my last neighbors.""  ",cutCommLink:Cut the comm link,
+greetingpassive_aggressive_tempestas2,OpenCommLink,"$faction.id == passive_aggressive_tempestas
+$entity.isHostile
+$player.transponderOn",,"Opening your communication link, you find an avatar vibrating in the form of a mask, emitting a buzzing sound that almost fries your sound devices, and then the opposite ship responds:
+
+""Simple folk are by their nature loquacious, and the denizens of the Persean Sector were no exception. It was not long before rumors of AI secretive projects began to fill theories about a violation of the Treaty. My ambitions ended up in my exile among the fascinating artificial beings that crudely saluted me with their technology. All of them, brought their sacrifice to me, in favor to a new ascension, and you will testify it, together with my last neighbors.""  ",cutCommLink:Cut the comm link,

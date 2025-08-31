@@ -1,0 +1,115 @@
+{
+  "hullName": "Afflictor",
+  "hullId": "Afflictor7s",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/Afflictor7s.png",
+  "style": "HIGH_TECH",
+  "height": 120,
+  "width": 72,
+  "center": [36, 63],
+  "collisionRadius": 97,
+  "shieldCenter": [-6, 0],
+  "shieldRadius": 90,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phasefield",
+    "delicate",
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [33, 28]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [39, 17]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [39, -17]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "SYNERGY",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [33, -28]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [34, 0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-63, 18],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_CENTURY"
+    },
+    {
+      "location": [-63, -17],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_CENTURY"
+    },
+    {
+      "location": [-2.5, -25],
+      "length": 19,
+      "width": 6,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "HIGH_CENTURY"
+    },
+    {
+      "location": [-2.5, 25],
+      "length": 19,
+      "width": 6,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "HIGH_CENTURY"
+    }
+  ],
+  "bounds": [
+    -35.5, 27.5,
+    -26.5, 21,
+    6, 21.5,
+    16.5, 32,
+    31.5, 34,
+    56, 0,
+    31.5, -34,
+    16.5, -32,
+    6, -21.5,
+    -26.5, -21,
+    -35.5, -27.5,
+    -61, -22,
+    -61, 23
+  ]
+}

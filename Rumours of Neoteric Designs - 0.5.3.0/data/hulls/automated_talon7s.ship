@@ -1,0 +1,67 @@
+{
+  "hullName": "Talon (M)",
+  "hullId": "automated_talon7s",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/automated_talon7s.png",
+  "style": "LOW_TECH",
+  "height": 24,
+  "width": 24,
+  "center": [12, 10],
+  "collisionRadius": 16,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 15.5,
+  "viewOffset": 0,
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [5.5, 3.5]
+    },
+    {
+      "id": "WS 002",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 180,
+      "locations": [-7, -0]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "MISSILE",
+      "mount": "HIDDEN",
+      "arc": 5,
+      "angle": 0,
+      "locations": [3, -3]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-7.5, 4.5],
+      "length": 20.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-7.5, -5.5],
+      "length": 20.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 7,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    12, 4,
+    -7, 9,
+    -7, -9,
+    6, -5.5
+  ]
+}

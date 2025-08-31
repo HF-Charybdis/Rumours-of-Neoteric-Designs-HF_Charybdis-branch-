@@ -1,0 +1,27 @@
+{
+	"id":"hypercharge7s",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE_TOGGLE",
+	
+	"statsScript":"data.shipsystems.scripts.Hypercharger7s",
+	
+	"engineGlowLengthMult":4,
+	"engineGlowWidthMult":2,
+	"engineGlowGlowMult":2,
+	
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+	
+	
+	"flameoutOnImpactChance":0,
+
+	"useSound":"hypercharger_start7s",
+	"loopSound":"hypercharger_loop7s",
+	"outOfUsesSound":"",
+	
+	"aiHints":{
+		"activeSpeedIncrease":350,
+		"burstMovementPotential":50,
+		"averageSpeedIncrease":300,
+	}
+}

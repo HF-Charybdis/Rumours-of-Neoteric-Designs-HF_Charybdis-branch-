@@ -1,0 +1,33 @@
+{
+	"id":"orbspawn7s_2",
+	"type":"DRONE_LAUNCHER",
+	"aiType":"DRONE_LAUNCHER_PD",
+	
+	"droneVariant":"Ex7s_Mayawati_orb2_variant",
+	
+	"allowFreeRoam":true,
+	
+	"launchSpeed":300,
+	"launchDelay":0.05,
+	"maxDrones":1,
+	"droneBehavior":[
+		{"droneIndex":[0],
+		 "defaultFacing":"MATCH_SHIP_HEADING",
+		 "faceEnemy":true,
+		 "holdRoamRange":0,
+		 "freeRoamRange":0,
+		 "targetPriority":[SHIP_TARGET, SHIP, FIGHTER],
+		 "initialOrbitAngle":-45,
+		 "orbitRadius":270,
+		 "orbitDir":1,
+		 "orbitSpeed":0,
+		},
+	],
+	
+	"useSound":"",
+	"outOfUsesSound":"",
+	
+	"aiHints":{
+
+	}
+}

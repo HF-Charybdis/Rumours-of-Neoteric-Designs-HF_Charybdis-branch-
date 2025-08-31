@@ -1,0 +1,22 @@
+{
+	"id":"entropy_damper7s",
+	"type":"STAT_MOD",
+	"aiType":"DAMPER_FIELD",
+	
+	"statsScript":"data.shipsystems.scripts.Entropy_Damper7s",
+
+	#"runScriptWhileIdle":true, # unapply() never gets called
+		
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"system_damper_omega7s",
+	"loopSound":"system_damper_omega_loop7s",
+	"deactivateSound":"system_damper_omega_off7s",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	"aiHints":{
+	}
+
+}
+
+
+

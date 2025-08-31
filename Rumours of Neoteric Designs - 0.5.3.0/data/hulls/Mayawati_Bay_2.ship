@@ -1,0 +1,31 @@
+{
+  "hullName": "Znull 2",
+  "hullId": "Mayawati_Bay_2",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/ships/empty_for_not_break.png",
+  "style": "MAYA",
+  "height": 130,
+  "width": 65,
+  "center": [32.5, 65],
+  "collisionRadius": 7,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 10,
+  "viewOffset": 0,
+  "builtInMods": [
+    "vastbulk",
+    "active7s"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "SYSTEM",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": []
+}

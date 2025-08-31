@@ -1,0 +1,276 @@
+{
+  "hullName": "Tarantula",
+  "hullId": "tarantula7s",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/tarantula.png",
+  "style": "MIDLINE",
+  "height": 173,
+  "width": 190,
+  "center": [95, 84.5],
+  "collisionRadius": 141,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 131,
+  "viewOffset": 0,
+  "builtInMods": [
+    "unstable_injector",
+    "highshield7s"
+  ],
+  "builtInWeapons": {
+    "WS0008": "heatseeker",
+    "WS0009": "heatseeker",
+    "WS0010": "heatseeker",
+    "WS0011": "heatseeker",
+    "WS0012": "heatseeker",
+    "WS0013": "heatseeker"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [64.5, -35]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": -0,
+      "locations": [64.5, 35]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 10,
+      "angle": 0,
+      "locations": [71, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": 0,
+      "locations": [36, -39]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 270,
+      "angle": -0,
+      "locations": [36, 39]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -90,
+      "locations": [-36.5, -57.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 90,
+      "locations": [-36.5, 57.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-10.5, -77]
+    },
+    {
+      "id": "WS0009",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-10.5, 77]
+    },
+    {
+      "id": "WS0010",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-26.5, -80]
+    },
+    {
+      "id": "WS0011",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-26.5, 80]
+    },
+    {
+      "id": "WS0012",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": -90,
+      "locations": [-42.5, -84]
+    },
+    {
+      "id": "WS0013",
+      "size": "SMALL",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 90,
+      "locations": [-42.5, 84]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-52.5, -27.5],
+      "length": 50,
+      "width": 20,
+      "angle": -180,
+      "contrailSize": 20,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [-52.5, 27.5],
+      "length": 50,
+      "width": 20,
+      "angle": 180,
+      "contrailSize": 20,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [-82, -59],
+      "length": 51.5,
+      "width": 21,
+      "angle": -180,
+      "contrailSize": 21,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [-82, 59],
+      "length": 51.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [-33.5, -0],
+      "length": 75.5,
+      "width": 27,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [-78, -72.5],
+      "length": 16.5,
+      "width": 7,
+      "angle": 180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [-78, 72.5],
+      "length": 16.5,
+      "width": 7,
+      "angle": -180,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [-64.5, -78],
+      "length": 21.68,
+      "width": 4.64,
+      "angle": -149.5,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [-64.5, 78],
+      "length": 21.68,
+      "width": 4.64,
+      "angle": 149.5,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [-60.5, -82],
+      "length": 21.68,
+      "width": 4.64,
+      "angle": -149.5,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [-60.5, 82],
+      "length": 21.68,
+      "width": 4.64,
+      "angle": 149.5,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [-57.5, -86],
+      "length": 21.68,
+      "width": 4.64,
+      "angle": -149.5,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    },
+    {
+      "location": [-57.5, 86],
+      "length": 21.68,
+      "width": 4.64,
+      "angle": 149.5,
+      "contrailSize": 128,
+      "style": "CUSTOM",
+      "styleId": "MIDCENTURY"
+    }
+  ],
+  "bounds": [
+    72.5, 47,
+    7.5, 65,
+    -49, 92,
+    -80.5, 66,
+    -36.5, 22,
+    -36.5, -22,
+    -80.5, -66,
+    -49, -92,
+    7.5, -65,
+    72.5, -47
+  ]
+}

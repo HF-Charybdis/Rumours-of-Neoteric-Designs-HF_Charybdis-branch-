@@ -1,0 +1,130 @@
+{
+  "hullName": "Accoster",
+  "hullId": "Accoster7s",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/ships/Accoster7s.png",
+  "style": "LOW_TECH",
+  "height": 187,
+  "width": 89,
+  "center": [44.5, 93.5],
+  "collisionRadius": 112.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 103.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "distributed_fire_control"
+  ],
+  "builtInWeapons": {
+    "WS 003": "Gammadish7s"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS 000",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [66.5, -4.5]
+    },
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [55.5, -25.5]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 268.5,
+      "locations": [-4.5, -27.5]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "DECORATIVE",
+      "mount": "TURRET",
+      "arc": 0,
+      "angle": 0,
+      "locations": [33.5, -4.5]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 0,
+      "locations": [41.5, 17.5]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 180,
+      "locations": [-24.5, 17.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-75.5, -10.5],
+      "length": 54.5,
+      "width": 19,
+      "angle": 180,
+      "contrailSize": 19,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-93, 4],
+      "length": 31.5,
+      "width": 10,
+      "angle": 180,
+      "contrailSize": 10,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-87.5, 15],
+      "length": 42,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 16,
+      "style": "LOW_TECH"
+    },
+    {
+      "location": [-70.5, 28.5],
+      "length": 37,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 12,
+      "style": "LOW_TECH"
+    }
+  ],
+  "bounds": [
+    90.5, 6,
+    90.5, 20,
+    19, 42.5,
+    -8.5, 29.5,
+    -15, 43,
+    -71.5, 32.5,
+    -71.5, 23.5,
+    -87, 19,
+    -91.5, 4,
+    -74.5, -3.5,
+    -74.5, -18.5,
+    -2, -43,
+    30, -42,
+    35, -35.5,
+    62.5, -35.5,
+    62.5, -14.5,
+    73.5, -14.5,
+    73.5, 6
+  ]
+}

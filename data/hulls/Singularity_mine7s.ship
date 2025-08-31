@@ -1,0 +1,42 @@
+{
+  "hullName": "Singularity Mine",
+  "hullId": "Singularity_mine7s",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/singularity_mine7s.png",
+  "style": "MAYA",
+  "height": 144,
+  "width": 144,
+  "center": [72, 71.5],
+  "collisionRadius": 20.5,
+  "shieldCenter": [0, -0],
+  "shieldRadius": 20.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "axialrotation",
+    "anchorrotation",
+    "singularity_hullmod7s"
+  ],
+  "builtInWeapons": {
+    "WS0001": "Traction_beam7s"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BUILT_IN",
+      "mount": "HARDPOINT",
+      "arc": 360,
+      "angle": 0,
+      "locations": [0, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    8, 4,
+    0.5, 10,
+    -6.5, 6,
+    -6.5, -6,
+    0.5, -10,
+    8, -4
+  ]
+}

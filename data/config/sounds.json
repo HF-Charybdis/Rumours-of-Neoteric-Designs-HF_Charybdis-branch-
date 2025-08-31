@@ -1,0 +1,218 @@
+{
+
+#collapseopen MUSIC
+	
+"music":{
+		####################################
+		# "source" can also be a directory #
+		####################################
+
+#		"epta_good":[
+#			{
+#				"source":"sounds/musics",
+#				"volume":0.5,
+#				"files":[
+#					"",
+#				],
+#				"randomStart":false, 
+#			},
+#		],
+
+		#folders: shipsystems/weapons/musics
+	},
+	
+	
+	"Soulcrier_fire7s":
+	[
+	    {"file":"sounds/weapons/Soulcrier_fire7s.ogg","pitch":0.9,"volume":2},
+		{"file":"sounds/weapons/Soulcrier_fire7s.ogg","pitch":0.95,"volume":2},
+		{"file":"sounds/weapons/Soulcrier_fire7s.ogg","pitch":1,"volume":2},
+		{"file":"sounds/weapons/Soulcrier_fire7s.ogg","pitch":1.05,"volume":2},
+		{"file":"sounds/weapons/Soulcrier_fire7s.ogg","pitch":1.1,"volume":2},
+	],
+	
+	"Soulcrier_fake_fire7s":
+	[
+	    {"file":"sounds/weapons/Soulcrier_fake_fire7s.ogg","pitch":0.9,"volume":0.8},
+		{"file":"sounds/weapons/Soulcrier_fake_fire7s.ogg","pitch":0.95,"volume":0.8},
+		{"file":"sounds/weapons/Soulcrier_fake_fire7s.ogg","pitch":1,"volume":0.8},
+		{"file":"sounds/weapons/Soulcrier_fake_fire7s.ogg","pitch":1.05,"volume":0.8},
+		{"file":"sounds/weapons/Soulcrier_fake_fire7s.ogg","pitch":1.1,"volume":0.8},
+	],
+	
+	"Repulser_fire7s":
+	[
+	    {"file":"sounds/weapons/Repulser_fire7s.ogg","pitch":0.91,"volume":0.6},
+		{"file":"sounds/weapons/Repulser_fire7s.ogg","pitch":0.92,"volume":0.6},
+		{"file":"sounds/weapons/Repulser_fire7s.ogg","pitch":0.93,"volume":0.6},
+		{"file":"sounds/weapons/Repulser_fire7s.ogg","pitch":0.94,"volume":0.6},
+		{"file":"sounds/weapons/Repulser_fire7s.ogg","pitch":0.95,"volume":0.6},
+	],
+	"Slagga7s_fire":
+	[
+	    {"file":"sounds/weapons/Slagga7s_fire.ogg","pitch":1,"volume":1},
+		{"file":"sounds/weapons/Slagga7s_fire.ogg","pitch":1.01,"volume":1},
+		{"file":"sounds/weapons/Slagga7s_fire.ogg","pitch":1.02,"volume":1},
+		{"file":"sounds/weapons/Slagga7s_fire.ogg","pitch":1.03,"volume":1},
+		{"file":"sounds/weapons/Slagga7s_fire.ogg","pitch":1.04,"volume":1},
+	],
+	
+	"Electric_dispenser7s_fire":
+	[
+		{"file":"sounds/sfx_shields/shields_burnout_oneshot.ogg","pitch":1.5,"volume":0.2},
+	],
+	
+	"Illusia_active":
+	[
+		{"file":"sounds/shipsystems/Illusia_version2.ogg","pitch":0.9,"volume":1},
+		{"file":"sounds/shipsystems/Illusia_version2.ogg","pitch":1.0,"volume":1},
+		{"file":"sounds/shipsystems/Illusia_version2.ogg","pitch":1.1,"volume":1},
+	],
+	
+	
+	
+	"Phase_attractor7s_start":
+	[
+		{"file":"sounds/shipsystems/Phase_attractor7s_start.ogg","pitch":1,"volume":2},
+	],
+	
+	"Phase_attractor7s_loop":
+	[
+		{"file":"sounds/sfx_systems/emp_emitter_loop.ogg","pitch":0.9,"volume":0.35},
+	],
+
+	
+	"Plasma_accelerator7s_loop":
+	[
+		{"file":"sounds/weapons/Plasma_accelerator7s_loop.ogg","pitch":0.9,"volume":2},
+	],
+	
+	"Plasma_accelerator7s_fire":
+	[
+		{"file":"sounds/weapons/Plasma_accelerator7s_fire.ogg","pitch":1,"volume":1},
+	],
+	
+	
+	
+	"Illusia_spawn":
+	[
+		{"file":"sounds/shipsystems/Illusia_version3.ogg","pitch":0.7,"volume":1},
+		{"file":"sounds/shipsystems/Illusia_version3.ogg","pitch":0.8,"volume":1},
+		{"file":"sounds/shipsystems/Illusia_version3.ogg","pitch":0.9,"volume":1},
+	],
+	
+	"venting_loop7s":
+	[
+		{"file":"sounds/shipsystems/venting_Mayawati2.ogg","pitch":0.85,"volume":2},
+	],
+	
+	
+	"emp_emitter7s":[ 
+		{"file":"sounds/sfx_systems/emp_emitter_impact_01.ogg","pitch":2,"volume":0.8},
+		{"file":"sounds/sfx_systems/emp_emitter_impact_02.ogg","pitch":2,"volume":0.8},
+		{"file":"sounds/sfx_systems/emp_emitter_impact_03.ogg","pitch":2,"volume":0.8},
+		],
+	
+	"system_damper_omega7s":[ 
+		{"file":"sounds/sfx_systems/quantum_disruptor_oneshot.ogg","pitch":0.9,"volume":0.7},
+	],
+	"system_damper_omega_loop7s":[
+		{"file":"sounds/sfx_systems/damper_field_loop.ogg","pitch":0.8,"volume":0.7},
+	],
+	"system_damper_omega_off7s":[
+		{"file":"sounds/sfx_systems/damper_field_deactivate.ogg","pitch":0.8,"volume":0.7},
+	],
+	
+	"custom_explosion_sevens":
+	[
+		{"file":"sounds/shipsystems/custom_explosion_sevens.ogg","pitch":1,"volume":1},
+	],
+	
+	"breakpoint_field_looping":
+	[
+		{"file":"sounds/shipsystems/breakpoint_field_looping.ogg","pitch":1,"volume":1},
+	],
+	
+	"breakpoint_field_start":
+	[
+		{"file":"sounds/shipsystems/breakpoint_field_start.ogg","pitch":1,"volume":1},
+	],
+	
+	"illusia_cloak_start":
+	[
+		{"file":"sounds/shipsystems/illusia_cloak_start.ogg","pitch":1,"volume":1},
+	],
+	
+	"illusia_cloak_looping":
+	[
+		{"file":"sounds/shipsystems/illusia_cloak_looping.ogg","pitch":1,"volume":1},
+	],
+	
+	"illusia_cloak_ending":
+	[
+		{"file":"sounds/shipsystems/illusia_cloak_ending.ogg","pitch":1,"volume":1},
+	],
+	
+	"impact_tempestas":
+	[
+		{"file":"sounds/shipsystems/impact_tempestas.ogg","pitch":1,"volume":1},
+	],
+	
+    "hypercharger_start7s":
+	[
+		{"file":"sounds/shipsystems/hypercharger_start7s.ogg","pitch":0.9,"volume":0.35},
+	],
+	"hypercharger_loop7s":
+	[
+		{"file":"sounds/shipsystems/hypercharger_loop7s.ogg","pitch":0.9,"volume":0.7},
+	],
+	"volition_sound7s":
+	[
+		{"file":"sounds/shipsystems/volition_sound7s-.ogg","pitch":1.0,"volume":2.4},
+		{"file":"sounds/shipsystems/volition_sound7s--.ogg","pitch":1.0,"volume":2.4},
+		{"file":"sounds/shipsystems/volition_sound7s---.ogg","pitch":1.2,"volume":2.4},
+	],	
+	"singularity_mines_start":
+	[
+		{"file":"sounds/shipsystems/singularity_mines_start.ogg","pitch":1.0,"volume":2},
+	],
+	
+	"additional_missile_loaders_use7s":
+	[
+		{"file":"sounds/shipsystems/additional_missile_loaders_use7s.ogg","pitch":1.0,"volume":0.6},
+	],
+	
+	"gamma_array_windup7s":
+	[
+	{"file":"sounds/shipsystems/gamma_array_windup7s.ogg","pitch":1,"volume":1},
+	
+	],
+	
+	"targeting_gamma_array7s":
+    [
+            {"file":"sounds/sfx_wpn_missiles/gorgon_dem_payload_01.ogg","pitch":1.5,"volume":0.3},
+    ],
+
+	"FireOrder_sound7s":
+	[
+	{"file":"sounds/shipsystems/FireOrder_sound7s.ogg","pitch":1,"volume":1},
+	
+	],
+	
+	
+	
+	
+	# MULTIPLE SOUNDS TEMPLATE
+	
+	#"seven_faisca_doze":
+	#[
+	#	{"file":"sounds/weapons/seven_faisca_doze.ogg","pitch":1.0,"volume":1},
+	#	{"file":"sounds/weapons/seven_faisca_doze2.ogg","pitch":1.0,"volume":1},
+	#	{"file":"sounds/weapons/seven_faisca_doze3.ogg","pitch":1.0,"volume":1},
+	#],
+	
+	
+}
+
+
+

@@ -1,0 +1,46 @@
+{
+	"id":"interceptburn7s",
+	"type":"ENGINE_MOD",
+	"aiType":"BURN_DRIVE_TOGGLE",
+	
+	"statsScript":"data.shipsystems.scripts.InterceptBurnStats",
+	
+	"engineGlowColor":[176,96,53,255],
+	#"engineGlowContrailColor":[100,165,255,25],
+	"engineGlowLengthMult":3,
+	"engineGlowWidthMult":1.5,
+	"engineGlowGlowMult":3,
+	
+	"jitterUnderColor":[255,125,89,155],
+	"jitterUnderCopies":25,
+	"jitterUnderMinRange":0,
+	"jitterUnderRange":9,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"jitterColor":[176, 96, 53,55],
+	"jitterCopies":2,
+	"jitterMinRange":0,
+	"jitterRange":5,
+	"jitterRangeRadiusFraction":0,
+	
+	"flameoutOnImpactChance":0.5,
+
+	"clampTurnRateAfter":false,
+	"clampMaxSpeedAfter":true,
+	"alwaysAccelerate":true,
+
+	#"useSound":"system_burn_drive_activate",
+	#"loopSound":"system_maneuvering_jets_loop",
+	#"deactivateSound":"system_burn_drive_deactivate",
+	#"outOfUsesSound":"engine_disabled",
+	
+	"useSound":"system_maneuvering_jets",
+	"loopSound":"system_maneuvering_jets_loop",
+	"outOfUsesSound":"engine_disabled",
+	
+	"aiHints":{
+		"activeSpeedIncrease":0,
+		"burstMovementPotential":300,
+		"averageSpeedIncrease":100,
+	}
+}

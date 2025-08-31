@@ -1,0 +1,22 @@
+{
+	"id":"phase_transition7s",
+	"type":"STAT_MOD",
+	"aiType":"DAMPER_FIELD",
+	
+	"statsScript":"data.shipsystems.scripts.Phase_Transition7s",
+
+	#"runScriptWhileIdle":true, # unapply() never gets called
+		
+	"fadeActivationSoundOnChargedown":true,
+	"useSound":"illusia_cloak_start",
+	"loopSound":"illusia_cloak_looping",
+	"deactivateSound":"illusia_cloak_ending",
+	"outOfUsesSound":"system_phase_cloak_collision",
+	
+	"aiHints":{
+	}
+
+}
+
+
+

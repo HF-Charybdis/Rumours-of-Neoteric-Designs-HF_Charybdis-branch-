@@ -1,0 +1,50 @@
+{
+	"id":"Clonesmoking7s",
+	"type":"PHASE_CLOAK",
+	"aiType":"PHASE_CLOAK",
+	
+	"statsScript":"data.shipsystems.scripts.CloneSmoking7s",
+	"runScriptWhilePaused":true, # only for the player's ship
+	"runScriptWhileIdle":true,  # this means unapply() never gets called
+	"blockActionsWhileChargingDown":false,
+	
+	"canNotCauseOverload":true,
+	
+	"phaseHighlight":"_glow1",
+	"phaseDiffuse":"_glow2",
+	
+	
+	"effectColor1":[95,203,239,255],
+	"effectColor2":[56, 104, 138,150],
+	
+	"clampTurnRateAfter":true,
+	"clampMaxSpeedAfter":true,
+	
+	"engineGlowColor":[0,0,0,0],
+	"engineGlowContrailColor":[0,0,0,0],
+	"engineGlowLengthMult":0,
+	"engineGlowWidthMult":0,
+	"engineGlowGlowMult":0,
+	
+	"jitterUnderColor":[130, 207, 180, 160],
+	"jitterUnderCopies":7,
+	"jitterUnderMinRange":10,
+	"jitterUnderRange":15,
+	"jitterUnderRangeRadiusFraction":0,
+	
+	"soundFilterType":"LOWPASS",
+	"soundFilterGain":0.8,
+	"soundFilterGainHF":0.25,
+	
+	"shipAlpha":1, # handled in stats script
+	#"shipAlpha":0.25,
+	
+	#"useSound":"seven_phasedive_start",
+	#"loopSound":"seven_phasedive_looping",
+	#"deactivateSound":"seven_phasedive_ending",
+	#"outOfUsesSound":"system_phase_cloak_collision",
+	
+	"useSound":"system_phase_cloak_activate",
+	"deactivateSound":"system_phase_cloak_deactivate",
+	"outOfUsesSound":"system_phase_cloak_collision",
+}

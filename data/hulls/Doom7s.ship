@@ -1,0 +1,258 @@
+{
+  "hullName": "Doom",
+  "hullId": "Doom7s",
+  "hullSize": "CRUISER",
+  "spriteName": "graphics/ships/Doom7s.png",
+  "style": "HIGH_TECH",
+  "height": 238,
+  "width": 200,
+  "center": [100, 105],
+  "collisionRadius": 170,
+  "shieldCenter": [13, 0],
+  "shieldRadius": 155,
+  "viewOffset": 0,
+  "builtInMods": [
+    "phasefield",
+    "delicate",
+    "automated"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS 001",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [115, 31]
+    },
+    {
+      "id": "WS 002",
+      "size": "MEDIUM",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [115, -30]
+    },
+    {
+      "id": "WS 003",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [109, 70]
+    },
+    {
+      "id": "WS 004",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [114, 47]
+    },
+    {
+      "id": "WS 005",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [114, -47]
+    },
+    {
+      "id": "WS 006",
+      "size": "SMALL",
+      "type": "UNIVERSAL",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [109, -70]
+    },
+    {
+      "id": "WS 007",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 45,
+      "locations": [90, 68]
+    },
+    {
+      "id": "WS 008",
+      "size": "MEDIUM",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -45,
+      "locations": [90, -68]
+    },
+    {
+      "id": "WS 009",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": 90,
+      "locations": [-59, 66]
+    },
+    {
+      "id": "WS 010",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 210,
+      "angle": -90,
+      "locations": [-59, -66]
+    },
+    {
+      "id": "WS 011",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": 90,
+      "locations": [62, 80]
+    },
+    {
+      "id": "WS 012",
+      "size": "SMALL",
+      "type": "ENERGY",
+      "mount": "TURRET",
+      "arc": 225,
+      "angle": -90,
+      "locations": [62, -80]
+    },
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-36, -49]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "HYBRID",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": -0,
+      "locations": [-37, 49]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-99, 63],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_CENTURY"
+    },
+    {
+      "location": [-99, -62],
+      "length": 32,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_CENTURY"
+    },
+    {
+      "location": [-102, 53],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_CENTURY"
+    },
+    {
+      "location": [-102, 34],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_CENTURY"
+    },
+    {
+      "location": [-102, -33],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_CENTURY"
+    },
+    {
+      "location": [-102, -52],
+      "length": 48,
+      "width": 12,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_CENTURY"
+    },
+    {
+      "location": [-94, 17],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_CENTURY"
+    },
+    {
+      "location": [-94, -17],
+      "length": 64,
+      "width": 16,
+      "angle": 180,
+      "contrailSize": 64,
+      "style": "HIGH_CENTURY"
+    }
+  ],
+  "bounds": [
+    -21, 75,
+    -50, 66,
+    -96, 65,
+    -99, 30,
+    -91, 29,
+    -91, 13,
+    -50, 7,
+    -50, -7,
+    -91, -14,
+    -91, -29,
+    -99, -30,
+    -97, -66,
+    -42, -66,
+    -22, -75,
+    -19, -63,
+    -2, -49,
+    -9, -31,
+    12, -30,
+    29, -40,
+    25, -58,
+    35, -68,
+    26, -81,
+    55, -97,
+    109, -78,
+    123, -22,
+    103, -11,
+    90, -22,
+    57, -16,
+    51, 1,
+    58, 16,
+    90, 20,
+    103, 12,
+    123, 23,
+    106, 81,
+    51, 97,
+    26, 80,
+    33, 65,
+    23, 59,
+    29, 37,
+    14, 32,
+    -8, 33,
+    -4, 56,
+    -20, 65
+  ]
+}

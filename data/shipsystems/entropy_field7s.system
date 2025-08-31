@@ -1,0 +1,14 @@
+{
+
+	"id":"entropy_field7s",
+	"type":"STAT_MOD",
+	"aiType":"CUSTOM",
+	"statsScript":"data.shipsystems.scripts.Entropy_field7s",
+    "aiScript":"data.shipsystems.scripts.Entropy_field7s_AI",
+	
+	"useSound":"",
+	"outOfUsesSound":"gun_out_of_ammo",
+	
+	
+	
+}

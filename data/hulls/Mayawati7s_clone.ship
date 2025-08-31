@@ -1,0 +1,67 @@
+{
+  "hullName": "Mayawati",
+  "hullId": "Mayawati7s_clone",
+  "hullSize": "FIGHTER",
+  "spriteName": "graphics/ships/Mayawati7s.png",
+  "style": "MAYA",
+  "height": 96,
+  "width": 106,
+  "center": [53, 48],
+  "collisionRadius": 143.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 136,
+  "viewOffset": 0,
+  "builtInMods": [
+    "aclone_timeout7s",
+    "active7s"
+  ],
+  "builtInWeapons": {
+    "WS0001": "Ex7s_graphicsphase7s",
+    "WS0003": "tpc"
+  },
+  "weaponSlots": [
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BUILT_IN",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [45, -0]
+    },
+    {
+      "id": "WS0001",
+      "size": "LARGE",
+      "type": "DECORATIVE",
+      "mount": "HIDDEN",
+      "arc": 0,
+      "angle": 0,
+      "locations": [0, -0]
+    },
+	
+	{
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "STATION_MODULE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [2, -0]
+    }
+  ],
+  "engineSlots": [],
+  "bounds": [
+    46, 7.5,
+    28, 11,
+    28.5, 27,
+    8.5, 33.5,
+    -44.5, 51,
+    -14, 17.5,
+    -14, -17.5,
+    -44.5, -51,
+    8.5, -33.5,
+    28.5, -27,
+    28, -11,
+    46, -7.5
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "variantId": "Ex7s_heron_Dakka",
+  "hullId": "heron",
+  "displayName": "Assault",
+  "goalVariant": false,
+  "fluxCapacitors": 15,
+  "fluxVents": 18,
+  "quality": 1,
+  "permaMods": [
+    "targetingunit",
+    "hardened_subsystems",
+    "expanded_deck_crew"
+  ],
+  "sMods": [
+    "targetingunit",
+    "hardened_subsystems",
+    "expanded_deck_crew"
+    ],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "pdburst",
+        "WS 002": "pdburst",
+        "WS 003": "pdburst",
+        "WS 005": "hveldriver"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 004": "pdburst"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "thunder_wing",
+    "thunder_wing",
+    "thunder_wing"
+  ]
+}

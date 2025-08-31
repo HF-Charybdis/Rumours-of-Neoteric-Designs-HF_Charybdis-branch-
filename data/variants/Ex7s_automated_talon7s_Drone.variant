@@ -1,0 +1,29 @@
+{
+  "variantId": "Ex7s_automated_talon7s_Drone",
+  "hullId": "automated_talon7s",
+  "displayName": "Drone",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 003": "swarmer_fighter"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "LINKED",
+      "weapons": {
+        "WS 001": "vulcan"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

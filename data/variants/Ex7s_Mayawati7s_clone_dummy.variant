@@ -1,0 +1,24 @@
+{
+  "variantId": "Ex7s_Mayawati7s_clone_dummy",
+  "hullId": "Mayawati7s_clone",
+  "displayName": "Deceptive",
+  "goalVariant": true,
+  "fluxCapacitors": 2,
+  "fluxVents": 10,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "tpc"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

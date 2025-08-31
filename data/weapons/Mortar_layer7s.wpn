@@ -1,0 +1,66 @@
+{
+  "id": "Mortar_layer7s",
+  "specClass": "projectile",
+  "projectileSpecId": "Mortar_layer7s_shot",
+  "type": "BALLISTIC",
+  "mountTypeOverride": "COMPOSITE",
+  "size": "MEDIUM",
+  "displayArcRadius": 300,
+  "turretSprite": "graphics/weapons/Mortar_layer7s_turret.png",
+  "hardpointSprite": "graphics/weapons/Mortar_layer7s_hardpoint.png",
+  "turretOffsets": [
+    0,
+    12,
+    7.5,
+    7.5,
+    12,
+    0,
+    7.5,
+    -7.5,
+    0,
+    -12
+  ],
+  "turretAngleOffsets": [
+    71.5,
+    45,
+    0,
+    -45,
+    -71.5
+  ],
+  "hardpointOffsets": [
+    3,
+    12,
+    10.5,
+    7.5,
+    15,
+    0,
+    10.5,
+    -7.5,
+    3,
+    -12
+  ],
+  "hardpointAngleOffsets": [
+    71.5,
+    26.5,
+    0,
+    -45,
+    -71.5
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "MUZZLE_FLASH",
+  "muzzleFlashSpec": {
+    "length": 10,
+    "spread": 8,
+    "particleSizeMin": 9,
+    "particleSizeRange": 13,
+    "particleDuration": 0.2,
+    "particleCount": 12,
+    "particleColor": [
+      255,
+      155,
+      155,
+      255
+    ]
+  },
+  "fireSoundTwo": "heavy_mortar_fire"
+}

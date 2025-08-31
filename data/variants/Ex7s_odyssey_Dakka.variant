@@ -1,0 +1,75 @@
+{
+  "variantId": "Ex7s_odyssey_Dakka",
+  "hullId": "odyssey",
+  "displayName": "Balanced",
+  "goalVariant": false,
+  "fluxCapacitors": 22,
+  "fluxVents": 50,
+  "quality": 1,
+  "permaMods": [
+    "magazines",
+    "missleracks",
+    "hardenedshieldemitter"
+  ],
+  "sMods": [
+    "magazines",
+    "missleracks",
+    "hardenedshieldemitter"
+    ],
+  "hullMods": [
+    "targetingunit",
+    "fluxdistributor",
+    "frontemitter"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 002": "autopulse"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 003": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 004": "harpoonpod",
+        "WS 005": "harpoonpod",
+        "WS 006": "harpoonpod"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 001": "squall"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS 007": "pdlaser",
+        "WS 008": "pdlaser",
+        "WS 009": "pdlaser",
+        "WS 010": "pdlaser",
+        "WS 011": "pdlaser",
+        "WS 012": "pdlaser",
+        "WS 013": "pdlaser",
+        "WS 014": "pdlaser"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": [
+    "sarissa_wing",
+    "sarissa_wing"
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "variantId": "Ex7s_Stella_Tempestas7s_Mission",
+  "hullId": "Stella_Tempestas7s",
+  "displayName": "Experimental",
+  "goalVariant": false,
+  "fluxCapacitors": 0,
+  "fluxVents": 46,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "targetingunit",
+    "cheat_tempestas7s",
+    "advancedshieldemitter",
+    "stabilizedshieldemitter",
+    "eccm"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0001": "vpdriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0013": "cyclone"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0002": "tachyonlance"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0011": "lightneedler",
+        "WS0012": "lightneedler"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0009": "gorgonpod",
+        "WS0010": "gorgonpod"
+      }
+    },
+    {
+      "autofire": true,
+      "mode": "ALTERNATING",
+      "weapons": {
+        "WS0003": "heavyburst",
+        "WS0004": "heavyburst",
+        "WS0005": "kineticblaster",
+        "WS0006": "kineticblaster",
+        "WS0007": "phasebeam",
+        "WS0008": "phasebeam"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "ALTERNATING",
+      "weapons": {}
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

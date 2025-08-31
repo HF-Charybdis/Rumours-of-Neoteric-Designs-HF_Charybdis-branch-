@@ -1,0 +1,44 @@
+{
+	"id":"Slagga_flarer7s_shot",
+	"specClass":"missile",	
+	"missileType":"FLARE_JAMMER",
+	"sprite":"graphics/icons/nascent_well.png",
+	"size":[3,3],	
+	"center":[1.5,1.5],
+	"collisionRadius":5,
+	"collisionClass":"MISSILE_NO_FF",
+	#"collisionClass":"FIGHTER",
+	"explosionColor":[255, 143, 112,255],  # purely visual, will get a white additively blended core on top of this color
+	"explosionRadius":35, # purely visual
+	#"maxFlightTime":0.75,
+	"flameoutTime":0.5, # total time from flameout to full fadeout
+	"noEngineGlowTime":0.5, # time spent without the engine glow being rendered
+	"fadeTime":0, # fadeout duration
+	"collisionClassAfterFlameout":"NONE",
+	"behaviorSpec":{"behavior":"CUSTOM",
+					"effectRange":300,
+					"effectChance":0.1,
+				   },	
+	"engineSpec":{"turnAcc":600,
+				  "turnRate":400,
+				  #"maxSpeed":150,
+				  "acc":0,
+				  "dec":0},
+	"engineSlots":[
+					{"id":"ES1",
+					"loc":[0, 0],
+				    "style":"CUSTOM",
+					"styleSpec":{
+						"engineColor":[255, 143, 112, 208],
+						"contrailParticleSizeMult":8,
+						"contrailParticleDuration":4,
+						"contrailMaxSpeedMult":-0.3,
+						"contrailAngularVelocityMult":0f,
+						"contrailColor":[250, 167, 167, 25],
+						"type":"GLOW" # GLOW or SMOKE
+					},
+				    "width":7.0,
+				    "length":25.0,
+				    "angle":180.0},
+				   ]
+}

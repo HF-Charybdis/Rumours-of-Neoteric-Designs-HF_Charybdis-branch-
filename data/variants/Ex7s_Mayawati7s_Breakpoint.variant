@@ -1,0 +1,34 @@
+{
+  "variantId": "Ex7s_Mayawati7s_Breakpoint",
+  "hullId": "Mayawati7s",
+  "displayName": "Breakpoint",
+  "goalVariant": true,
+  "fluxCapacitors": 3,
+  "fluxVents": 0,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "hardened_subsystems",
+    "reinforcedhull",
+    "heavyarmor",
+    "breakpoint7s"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "Ex7s_soulcrier"
+      }
+    }
+  ],
+  "modules": [
+    {
+      "WS0004": "Ex7s_Mayawati_Bay_variant"
+    },
+    {
+      "WS0005": "Ex7s_Mayawati_Bay_2_variant"
+    }
+  ],
+  "wings": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "Repulser7s",
+  "specClass": "projectile",
+  "projectileSpecId": "Repulser7s_shot",
+  "type": "ENERGY",
+  "size": "MEDIUM",
+  "turretGlowSprite": "graphics/weapons/Repulser7s_turret_glow.png",
+  "turretSprite": "graphics/weapons/Repulser7s_turret.png",
+  "hardpointGlowSprite": "graphics/weapons/Repulser7s_hardpoint_glow.png",
+  "hardpointSprite": "graphics/weapons/Repulser7s_hardpoint.png",
+  "glowColor": [
+    99, 255, 201,
+    255
+  ],
+  "turretOffsets": [
+    19,
+    0
+  ],
+  "turretAngleOffsets": [
+    0
+  ],
+  "hardpointOffsets": [
+    27.5,
+    0
+  ],
+  "hardpointAngleOffsets": [
+    0
+  ],
+  "barrelMode": "ALTERNATING",
+  "animationType": "GLOW_AND_FLASH",
+  "muzzleFlashSpec": {
+    "length": 20,
+    "spread": 20,
+    "particleSizeMin": 4,
+    "particleSizeRange": 8,
+    "particleDuration": 1,
+    "particleCount": 30,
+    "particleColor": [
+      100,
+      100,
+      255,
+      0
+    ]
+  },
+  "fireSoundTwo": "Repulser_fire7s"
+}

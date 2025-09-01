@@ -1,3 +1,11 @@
+v5.3.1a
+Weapon Changes
+Repulser: damage increased by 25% from 40 to 50 per shot, OP reduced by 9.3% from 12 to 11
+Pulse Accelerator: OP reduced by 14.8% from 27 to 23, Flux per second reduced by 33.3% from 1500 to 1000 (amount per burst reduced from 2025 to 1350).
+Electric Discharger: range increased by 20% from 250 to 300, chargedown reduced by 25% from 2 to 1.5 (rate of fire increased by roughly 32%).
+
+Thank you to Bugatti for informing me of Rons Data Edit. 
+
 v5.3.0a
 Hegemony Changes
 removed base_bp, lowtech_bp and hegemony tags from knownships.
@@ -31,4 +39,5 @@ removed the same base_bp tag and set of missile weapons as i did from the last 3
 only reduced the Elipsion and Quasars frequency slightly since they were already almost correct.
 
 default_ship_role Changes
+
 reduced the Vespa_Attack from 6 Points to 5 (what i call the numbers for ship probability in the roles file).

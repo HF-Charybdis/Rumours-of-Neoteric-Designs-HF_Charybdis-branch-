@@ -2,8 +2,8 @@
   "id":"advent_seven",
   "name":"Rumours of Neoteric Designs",
   "author":"Rav0n (Maintainer: ShiftySilt (Updated by HF_Charybdis)",
-  "version":"0.5.3.1",
-  "description":"To be haunted is to glimpse a truth that might best be hidden. (from HF_Charybdis i found a bunch of issues in the 5.2.3 release such as ships having too high hullfrequency and the weapons being comically underpowered.)",
+  "version":"0.5.3.1b",
+  "description":"To be haunted is to glimpse a truth that might best be hidden. (from HF_Charybdis i found a bunch of issues in the 5.2.3 release such as ships having too high hullfrequency and several of the weapons being comically underpowered.)",
   "gameVersion":"0.98a-RC8",
   
   

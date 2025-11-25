@@ -1,0 +1,20 @@
+Since several people (including myself initialy) were getting very confused by the Pulse Accelerator i wrote this document to explain it.
+
+The Pulse Accelerators firing works off of a cycle made up of 3 stages that loop so long as you keep firing, starting with the charging phase (currently 1.25 seconds long) during which its beam gradually increases in dps starting at 0% and going up linearly untill it reaches 100% at the end of the charging phase. Second is the burst phase (lasting 0.1 seconds) during which the beam does its full dps and the weapon fires its main projectile. Finally we have the chargedown phase (currently a total of 2.65 seconds) during which the weapon cools down and reloads for its next firing cycle. All in all the weapon fires once every 4 seconds.
+
+The "damage" value seen ingame is the total damage the beam does during the whole 1.35 seconds of uptime per firing cycle (which is all in all ends up being barely 54% of the beams dps value in the code and results in the beam being so weak that it does almost nothing against most ships armor).
+
+In regards to flux generation the weapon produces its full flux per second during the charging and burts phases, which is a total duration of 1.35 seconds per cycle and thus the base flux per "shot" in V5.2.3 was an absurd 2025 for a shot that is barely a half as powerful as those of the gigacannon (which has a per shot cost of 1500).
+
+
+In summary the stats (in V5.2.3) of the Pulse Accelerator can be considered to be the following (if treating the beam portion of the attack as 100 extra damage on the main shot even though it is far less effective than that).
+Ordinance Points: 27
+Range: 800
+Damage: 1100 (DPS: 275)
+EMP: 600 (EPS: 150)
+Flux per shot: 2025 (506 per second)
+Damage Type: Energy.
+Accuracy: Perfect.
+Turn Rate: 25
+Refire Delay: 4
+Projectile Speed: 2500

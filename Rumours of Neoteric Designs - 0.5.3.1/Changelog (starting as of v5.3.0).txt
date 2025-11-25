@@ -1,3 +1,11 @@
+v5.3.1b
+Weapon Changes
+Pulse Accelerator: Turn rate reduced by 20% from 25 to 20.
+
+Pulse Accelerator: Flux per second decrease partially reverted from 1000 to 1300 resulting in a roughly 13.3% reduction from the original value (1500) rather than a 33.3% reduction which means a flux per cycle of 1755.
+
+Help document added to explain the Pulse Accelerator.
+
 v5.3.1a
 Weapon Changes
 Repulser: damage increased by 25% from 40 to 50 per shot, OP reduced by 9.3% from 12 to 11
